@@ -1,4 +1,4 @@
-const { handler } = require('./handler')
+const { handler } = require('./src/handler')
 const http = require('http')
 const { PORT = 3000 } = process.env
 

@@ -6,10 +6,6 @@ chardet@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.6.0.tgz#9a9b264a18efeb9f797de19252fb1f2adccda616"
 
-dotenv@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.0.0.tgz#24e37c041741c5f4b25324958ebbc34bca965935"
-
 double-ended-queue@^2.1.0-0:
   version "2.1.0-0"
   resolved "https://registry.yarnpkg.com/double-ended-queue/-/double-ended-queue-2.1.0-0.tgz#103d3527fd31528f40188130c841efdd78264e5c"
@@ -59,10 +55,6 @@ lodash.padstart@^4.6.1:
 lodash.repeat@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/lodash.repeat/-/lodash.repeat-4.1.0.tgz#fc7de8131d8c8ac07e4b49f74ffe829d1f2bec44"
-
-lodash.takewhile@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.takewhile/-/lodash.takewhile-4.6.0.tgz#8c8c7578dcdd65fd2660c7ec4afe81e303b32735"
 
 punycode@2.1.1:
   version "2.1.1"
