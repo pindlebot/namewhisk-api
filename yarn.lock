@@ -96,6 +96,10 @@ lodash.repeat@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/lodash.repeat/-/lodash.repeat-4.1.0.tgz#fc7de8131d8c8ac07e4b49f74ffe829d1f2bec44"
 
+lodash.takewhile@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.takewhile/-/lodash.takewhile-4.6.0.tgz#8c8c7578dcdd65fd2660c7ec4afe81e303b32735"
+
 punycode@2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"

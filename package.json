@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "lodash.takewhile": "^4.6.0",
     "redis": "^2.8.0",
     "whois-2": "^0.0.4"
   },
