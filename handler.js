@@ -4,7 +4,7 @@ const parse = require('./parse')
 
 const createClient = async () => {
   const client = require('redis')
-    .createClient(process.env.REDIS_PORT, process.env.REDIS_HOSTNAME)
+    .createClient(14914, process.env.REDIS_HOSTNAME)
   client.auth(process.env.REDIS_PASSWORD)
 
   client.on('error', (err) => {
@@ -50,7 +50,7 @@ const lookup = (id, { client }) => new Promise((resolve, reject) =>
   })
 )
 
-module.exports.handler = async (event, context, callback) => {
+const handler = async (event, context, callback) => {
   const client = await createClient()
   const { id } = event.pathParameters
   let data = await client.get(id)
@@ -74,3 +74,5 @@ module.exports.handler = async (event, context, callback) => {
     respond({ data })
   )
 }
+
+module.exports.handler = handler

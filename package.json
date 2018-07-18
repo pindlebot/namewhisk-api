@@ -1,14 +1,15 @@
 {
-  "name": "redis-lambda",
+  "name": "namewhisk-redis",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "app.js",
   "license": "MIT",
   "dependencies": {
     "lodash.takewhile": "^4.6.0",
     "redis": "^2.8.0",
     "whois-2": "^0.0.4"
   },
-  "devDependencies": {
-    "serverless-dotenv-plugin": "^1.1.5"
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "up-env load && up deploy staging"
   }
 }

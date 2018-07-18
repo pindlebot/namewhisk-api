@@ -1,0 +1,21 @@
+{
+  "name": "namewhisk-redis",
+  "regions": [
+    "us-east-1"
+  ],
+  "environment": {
+    "REDIS_HOSTNAME": "${ssm:/namewhisk-redis/REDIS_HOSTNAME}",
+    "REDIS_PASSWORD": "${ssm:/namewhisk-redis/REDIS_PASSWORD}"
+  },
+  "stages": {
+    "production": {
+      "domain": "api.namewhisk.com"
+    },
+    "staging": {
+      "domain": "api-staging.namewhisk.com"
+    }
+  },
+  "hooks": {
+    "clean": "up-env restore"
+  }
+}
