@@ -1,5 +1,4 @@
 const { promisify } = require('util')
-const whois = require('whois-2')
 const lookup = require('./lookup')
 
 const createClient = async () => {
