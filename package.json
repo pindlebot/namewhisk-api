@@ -1,5 +1,5 @@
 {
-  "name": "namewhisk-redis",
+  "name": "namewhisk-api",
   "version": "0.0.1",
   "main": "app.js",
   "license": "MIT",
@@ -7,7 +7,9 @@
     "redis": "^2.8.0",
     "whois-2": "^0.0.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "up-env": "^0.0.10"
+  },
   "scripts": {
     "deploy": "up-env load && up deploy staging"
   }
